@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.title {
+    text-align: center;
+}
+.green {
+    color: #73a839;
+}
+body {
+  padding-top: 50px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Lobster';cursive;
+    font-size:2em;
+}
+
+.carousel-inner .item img {
+    max-width:150%;
+    min-width:100%;
+    overflow:hidden;
+}
+.carousel-caption {
+    text-align: right;
+}
+.carousel-caption h1 {
+    padding: 0 10px 0 0;
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    line-height: 1.4em;
+    background-image: linear-gradient(rgba(136,193,73,0.8), rgba(115,168,57,0.8) 60%, rgba(105,153,52,0.8));
+}
+.carousel-caption h1 a {
+    color:white;
+    text-decoration:none;
+}
+.carousel-list {
+    top: 60px;
+    margin: 0 auto;
+}
+.carousel-list li {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.carousel-list li span {
+    background-color: rgba(0,0,0,0.4);
+    padding: 18px;
+}
+
+/*small*/
+@media (max-width:991px) {
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+    .carousel-list li {
+        font-size: 1.6em;
+        line-height: 1.6em;
+    }
+    .carousel-list li span {
+        padding: 5px;
+    }
+}
+
+/*phone*/
+@media (max-width:550px) {
+    .carousel-caption h1 {
+        font-size: 1em;
+    }
+    .carousel-list li {
+        font-size: 1em;
+        line-height: 1em;
+    }
+}        
+.carousel-list li:nth-child(1) {
+    animation-delay: .3s;
+}
+.carousel-list li:nth-child(2) {
+    animation-delay: .5s;
+}
+.carousel-list li:nth-child(3) {
+    animation-delay: .7s;
+}
+
+.info-bar {
+    margin-top:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.info-bar div {
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.info-bar div:last-child {
+    border-right: 0px;
+}
+footer {
+    background-color: dimgrey;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.full-width {
+    min-width: 100%;
+}
